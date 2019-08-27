@@ -1,2 +1,5 @@
 # UnityLocalzationModule
 UnityLocalzationModule(unity多语言本地化系统)
+LocalzationMgr 提供管理当前语言的接口，提供获取多语言翻译文字的接口
+将所有的Unity组件抽象为ILocal接口，ILocal接口提供void OnLangChange(LanguageEnum lang)方法处理不同的组件在切换语言时不同操作
+目前实现了LocalText LocalTextMesh LocalImage  如需其他的请自行实现
