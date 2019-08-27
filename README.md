@@ -1,0 +1,2 @@
+# UnityLocalzationModule
+UnityLocalzationModule(unity多语言本地化系统)
